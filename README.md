@@ -34,7 +34,7 @@ While looking through the raw data, I noticed there were zero values that should
 ![alt text](Data_correlation_fixed.PNG)
 
 ---
-## **Initial Analysis**
+## ** Data Analysis**
 
 Which property type had the most listings?
 Apartments and Entire home had the most listings. This could be as a result of more family/friends vacations, than solo trips during the pandemic since everyone was home.
@@ -52,10 +52,6 @@ Manhattan has the most properties listed, closely followed by Brooklyn. Stanten 
 ![alt text](Property_distribution.PNG)
 
 
-
-
-## **Price Distribution**
-
 The price is not a normal distribution,  as a result of high priced listings.  The price values will need to be transformed. I normalised the distribution using the log values of the original prices and change the price back to the normal price later.
 
 ![alt text](price_distribution.PNG)
@@ -66,7 +62,7 @@ Below is a a near normal distribution of the transformed price.
 ![alt text](price_distribution_normal.PNG)
 
 ---
-## **Feature and Model Selection**
+## **Feature Selection and Model Selection**
 
 I used the Random Forest Regressor to determine feature importance and filter out unimportant features. The Random Forest regressor concluded that the "neighbourhood_group' feature had the least importances.  Then I trained other models with and without the least “neighborhood_group to measure accuracy. 
 
