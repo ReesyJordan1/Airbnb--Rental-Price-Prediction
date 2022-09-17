@@ -32,7 +32,7 @@ While looking through the raw data, I noticed there were zero values that should
 ![alt text](Data_correlation_fixed.PNG)
 
 ---
-## ** Data Analysis**
+## Data Analysis
 
 Which property type had the most listings?
 Apartments and Entire home had the most listings. This could be as a result of more family/friends vacations, than solo trips during the pandemic since everyone was home.
