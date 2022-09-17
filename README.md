@@ -8,7 +8,7 @@
 
 
 ![alt text](Price_distribution_scatter.PNG)
-![alt text](Property types.PNG)
+![alt text](Property_types.PNG)
 ![alt text](Property_distribution.PNG)
 ![alt text](Propery_prices.PNG)
 
