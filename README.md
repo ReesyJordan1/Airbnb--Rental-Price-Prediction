@@ -1,5 +1,17 @@
 # Airbnb-Price-Prediction
+
+
+- ##### Passive income for homeowners looking to offer competitive prices
+
+- ##### Market analysis tool for real estate owners and inventors (and future owners and investors) such as us!
+
+- ##### Accommodations pricing comparison tool for Travelers
+
+
+
 ![alt text](Tableau_Dashboard.PNG)
+
+
 
 
 ![alt text](Data_Exploration.PNG)
