@@ -18,11 +18,6 @@
 
 ---
 
-
-![alt text](Tableau_Dashboard.PNG)
-
-
-
 ---
 ## **Data Exploration**
 While looking through the raw data, I noticed there were zero values that should not be in columns like price, minimum nights, availability.  My initial thought was that they may need to be dropped or replaced.  I also saw that the features seem to be already in the appropriate data types, except for the "last_reviews" column which should be in the datetime format. I visualized the correlation before before transforming the data to be able to compare the two heatmaps after transforming the data.  The top heatmap is before making changed to the dataset and the bottom heatmap is after those changes were made.  I knew I would need to put numerical weights on the values in the columns with values that occur often for example: "room type" and "neighborhood. 
@@ -80,10 +75,10 @@ Three Regression models were used to fit the data, and select the most efficient
 ![alt text](Connecting_db.PNG)
 
 ---
-## **Conclusion**
-#### Link to Airbnb Price prediction presentation (Google Slides) - https://docs.google.com/presentation/d/1c2BxgpvZix_ihc0f0i20Z-8WYg32zfk1L703fofE_Gs/edit#slide=id.g15013174d24_0_80
+## **Dashboard and Presentation**
 
 #### Link to Tableau dashboard - https://public.tableau.com/views/AirbnbListings_16629365304590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+![alt text](Tableau_Dashboard.PNG)
 
 
-
+#### Link to Airbnb Price prediction presentation (Google Slides) - https://docs.google.com/presentation/d/1c2BxgpvZix_ihc0f0i20Z-8WYg32zfk1L703fofE_Gs/edit#slide=id.g15013174d24_0_80
