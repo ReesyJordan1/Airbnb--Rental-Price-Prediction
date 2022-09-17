@@ -25,10 +25,7 @@
 
 ---
 ## **Data Exploration**
-- While looking through the raw data, there were zero values that should not be in columns like price, minimum nights, availability.  My initial thought was that they may need to be dropped or replaced.  
-- I also saw that the features seem to be already in the appropriate data types, except for the "last_reviews" column which should be in the datetime format. 
-- I visualized the correlation before before transforming the data to be able to compare the two heatmaps after transforming the data.  The top heatmap is before making changed to the dataset and the bottom heatmap is after those changes were made.  
-- I knew I would need to put numerical weights on the values in the columns with values that occur often for example: "room type" and "neighborhood. 
+While looking through the raw data, I noticed there were zero values that should not be in columns like price, minimum nights, availability.  My initial thought was that they may need to be dropped or replaced.  I also saw that the features seem to be already in the appropriate data types, except for the "last_reviews" column which should be in the datetime format. I visualized the correlation before before transforming the data to be able to compare the two heatmaps after transforming the data.  The top heatmap is before making changed to the dataset and the bottom heatmap is after those changes were made.  I knew I would need to put numerical weights on the values in the columns with values that occur often for example: "room type" and "neighborhood. 
 
 ![alt text](Data_Exploration.PNG)
 ![alt text](Data_Exploration_correlation.PNG)
