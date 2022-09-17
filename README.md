@@ -17,8 +17,8 @@
 ![alt text](price_distribution_normal.PNG)
 
 
-![alt text](uploading_db.PNG)
-![alt text](connect_db.PNG)
+![alt text](Uploading_db.PNG)
+![alt text](Connect_db.PNG.PNG)
 
 
 ![alt text](RF_Modeling.PNG)
