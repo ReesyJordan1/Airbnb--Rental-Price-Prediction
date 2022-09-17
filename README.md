@@ -23,7 +23,7 @@
 
 
 ![alt text](Uploading_db.PNG)
-
+![alt text](Connect_db.PNG)
 
 
 
