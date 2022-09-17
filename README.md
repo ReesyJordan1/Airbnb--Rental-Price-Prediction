@@ -1,12 +1,18 @@
-# Airbnb-Price-Prediction
+## Property Rental Price Prediction
 
+![alt text](airbnb.png)
 
-- ##### Passive income for homeowners looking to offer competitive prices
+####  Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities.  Millions of hosts and travelers choose to create a free Airbnb account so they can list their space and book unique accommodations anywhere in the world. A price predictions tool for Airbnb could help hosts make impactful decisions about how much to charge for their listings.  This tool will help them remain competitive in their market and calculate revenue from their rentals.  
 
-- ##### Market analysis tool for real estate owners and inventors (and future owners and investors) such as us!
+#### This price prediction tool can also:
 
-- ##### Accommodations pricing comparison tool for Travelers
+- #### Passive income for homeowners looking to offer competitive prices
 
+- #### Market analysis tool for real estate owners and inventors (and future owners and investors) such as us!
+
+- #### Accommodations pricing comparison tool for Travelers
+
+---
 
 
 ![alt text](Tableau_Dashboard.PNG)
