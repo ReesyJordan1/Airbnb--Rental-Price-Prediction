@@ -18,7 +18,7 @@
 
 
 ![alt text](Uploading_db.PNG)
-![alt text](Connect_db.PNG.PNG)
+![alt text](Connect_db.PNG)
 
 
 ![alt text](RF_Modeling.PNG)
