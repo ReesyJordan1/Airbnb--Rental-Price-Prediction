@@ -1,6 +1,9 @@
-## **Property Rental Price Prediction**
+## **Where in NYC should I invest in a rental property to make the most money?**
 
-![alt text](airbnb.png)
+
+#### I used Airbnb data to answer this question. 
+
+#### ![alt text](airbnb.png)
 
 ####  Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities.  Millions of hosts and travelers choose to create a free Airbnb account so they can list their space and book unique accommodations anywhere in the world. A price predictions tool for Airbnb could help hosts make impactful decisions about how much to charge for their listings.  This tool will help them remain competitive in their market and calculate revenue from their rentals.  
 
