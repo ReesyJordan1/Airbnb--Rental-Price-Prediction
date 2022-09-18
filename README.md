@@ -35,7 +35,7 @@ While looking through the raw data, I noticed there were zero values that should
 ![alt text](Data_correlation_fixed.PNG)
 
 ---
-## Data Analysis
+## **Data Analysis**
 
 Which property type had the most listings?
 Apartments and Entire home had the most listings. This could be as a result of more family/friends vacations, than solo trips during the pandemic since everyone was home.
@@ -86,7 +86,7 @@ Three Regression models were used to fit the data, and select the most efficient
 
 ---
 
-## Results and Recommendations
+## **Results and Recommendations**
 
 My results were very close in most cases, but I see some places where the two values are quite far apart.  Now I can go on to create an app to sell to the thousands of Airbb hosts in NYC who need to know if their listed properties are making the most money or I can expand this analysis to add in additional features like date and amenities to suggest prices  for listings based on the season or based on the amenities that they offer.  I can even test this model with other big cities around the world to see if its applicable to other big cities like Tokyo, San Francisco or London. 
 
