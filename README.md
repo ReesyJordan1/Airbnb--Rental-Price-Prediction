@@ -77,13 +77,25 @@ Three Regression models were used to fit the data, and select the most efficient
 
 ---
 ## **Connecting to the Database**
+
+##### For the database, it was redundant to create an ERD because the columns fro each dataset were directly related to each other, they were the same.  So I create an export of the transformed data and uploaded into the SQL database and then to Tableau.  
+
+
 ![alt text](Uploading_db.PNG)
 ![alt text](Connecting_db.PNG)
 
 ---
+
+## Results and Recommendations
+
+My results were very close in most cases, but I see some places where the two values are quite far apart.  Now I can go on to create an app to sell to the thousands of Airbb hosts in NYC who need to know if their listed properties are making the most money or I can expand this analysis to add in additional features like date and amenities to suggest prices  for listings based on the season or based on the amenities that they offer.  I can even test this model with other big cities around the world to see if its applicable to other big cities like Tokyo, San Francisco or London. 
+
+---
+
+
 ## **Dashboard and Presentation**
 
-#### Link to Tableau dashboard - https://public.tableau.com/views/AirbnbListings_16629365304590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+Link to Tableau dashboard - https://public.tableau.com/views/AirbnbListings_16629365304590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 ![alt text](Tableau_Dashboard.PNG)
 
 
