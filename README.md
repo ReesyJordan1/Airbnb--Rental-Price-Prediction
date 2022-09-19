@@ -40,40 +40,40 @@ While looking through the raw data, I noticed there were zero values that should
 Which property type had the most listings?
 Apartments and Entire home had the most listings. This could be as a result of more family/friends vacations, than solo trips during the pandemic since everyone was home.
 
-![alt text](Property_types.PNG)
+![alt text](Property_types_new.PNG)
 
 How are the properties priced? 
 The majority of houses are priced between USD0 and USD2000. The max price for houses in Queens, Brooklyn and Bronx is USD10k. Staten Island has a little above USD5000 as max price and Manhattan, a little above USD12000. 
 
-![alt text](Propery_prices.PNG)
+![alt text](Propery_prices_new.PNG)
 
 How are the properties distributed in the neighborhood? 
 Manhattan has the most properties listed, closely followed by Brooklyn. Stanten Island has the least.
 
-![alt text](Property_distribution.PNG)
+![alt text](Property_distribution_new.PNG)
 
 
 The price is not a normal distribution,  as a result of high priced listings.  The price values will need to be transformed. I normalised the distribution using the log values of the original prices and change the price back to the normal price later.
 
-![alt text](price_distribution.PNG)
-![alt text](Price_distribution_scatter.PNG)
+![alt text](price_distribution_new.PNG)
+![alt text](Price_distribution_scatter_new.PNG)
 
 Below is a a near normal distribution of the transformed price.
 
-![alt text](price_distribution_normal.PNG)
+![alt text](price_distribution_normal_new.PNG)
 
 ---
 ## **Feature Selection and Model Selection**
 
 I used the Random Forest Regressor to determine feature importance and filter out unimportant features. The Random Forest regressor concluded that the "neighbourhood_group' feature had the least importances.  Then I trained other models with and without the least “neighborhood_group to measure accuracy. 
 
-![alt text](RF_Modeling.PNG)
+![alt text](RF_Modeling_new.PNG)
 
 
 Three Regression models were used to fit the data, and select the most efficient model. I measured the performance of Random Forest Regressor, XGB Regressor, Linear Regression,  with all the features and then again with less features.  I used R2 and MSE (mean squared error) to measure accuracy.  The Random Forest Regressor model without the less important features had the best MSE accuracy score
 
-![alt text](Model_Selection_allfeatures.PNG)
-![alt text](Model_Selection_lessfeatures.PNG)
+![alt text](Model_Selection_allfeatures_new.PNG)
+![alt text](Model_Selection_lessfeatures_new.PNG)
 
 ---
 ## **Connecting to the Database**
@@ -90,6 +90,8 @@ Three Regression models were used to fit the data, and select the most efficient
 
 My results were very close in most cases, but I see some places where the two values are quite far apart.  Now I can go on to create an app to sell to the thousands of Airbb hosts in NYC who need to know if their listed properties are making the most money or I can expand this analysis to add in additional features like date and amenities to suggest prices  for listings based on the season or based on the amenities that they offer.  I can even test this model with other big cities around the world to see if its applicable to other big cities like Tokyo, San Francisco or London. 
 
+
+![alt text](Results.PNG)
 ---
 
 
